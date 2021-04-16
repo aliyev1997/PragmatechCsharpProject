@@ -47,8 +47,51 @@ namespace Bankomat
             {
                 Console.WriteLine("Zehmet olmasa reqemli pin daxil edin.");
             }
+            
+          
+            
+//public static void Balance()
+//{
+//    Console.WriteLine("Balansinizda 1000 azn var.");           
+//}
 
-
+//public static void Banking()
+//{
+//    int[] money = new int[7] { 200, 100, 50, 20, 10, 5, 1 };
+//    Console.WriteLine("Istediyiniz meblegi daxil edin");
+//
+//    int user_request = int.Parse(Console.ReadLine());
+//
+//
+//    if (user_request > 0 && user_request < 1001)
+//    {
+//        for (int i = 0; i < money.Length; i++)
+//        {
+//            if (user_request >= money[i])
+//            {
+//                int bankomat = user_request / money[i];
+//                user_request -= bankomat * money[i];
+//
+//                System.Console.WriteLine(bankomat + " - " + money[i]);
+//            }
+//        }
+//    }
+//}
+//
+//
+//public static void Mexaric()
+//{
+//    Console.WriteLine("Hesabinizda balans: 1000 AZN");
+//}
+//
+//public static void Menu()
+//{
+//    Console.WriteLine("Istediyiniz emeliyyati daxil edin. Menu: ");
+//    Console.WriteLine("1.Balans.");
+//    Console.WriteLine("2.Negd pul cixarishi.");
+//    Console.WriteLine("3.Umumi hesabdan cixarish.");
+//}
+//
 
         }
     }
