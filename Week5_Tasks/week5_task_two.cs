@@ -75,6 +75,8 @@ namespace Bankomat
 //                System.Console.WriteLine(bankomat + " - " + money[i]);
 //            }
 //        }
+//           Console.WriteLine("Balansinizda qalan mebleg: ");
+//           Console.WriteLine(1000 - user_request);
 //    }
 //}
 //
