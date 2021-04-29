@@ -24,10 +24,10 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            Rect pelkas = new Rect();
+            Rect rect_1= new Rect();
             int _width = int.Parse(Console.ReadLine());
             int _length = int.Parse(Console.ReadLine());
-            pelkas.Square(_width, _length);
+            rect_1.Square(_width, _length);
 
 
 
